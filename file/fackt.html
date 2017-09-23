@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FACKTORIAL</title>
+	<script>
+		function fackt1(){
+			var a = document.getElementById('vl1').value;
+			a++;
+			var c = 1;
+			var b = 1;
+			while (c != a){
+				b = c*b;
+				console.log(b);
+				c++;
+			}
+			alert(b);
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="vl1">
+	<input type="button" value="submit" onclick="javascript:fackt1();">
+</body>
+</html>
